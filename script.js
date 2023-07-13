@@ -40,7 +40,7 @@ function loadLi() {
   if (todoLi) {
     localStorage.setItem('todo', JSON.parse(todoLi));
     for (let i = 0; i < todo.length; i++) {
-      addList(todo[i]);
+      addList(todoLi[i]);
     }
   }
 }
